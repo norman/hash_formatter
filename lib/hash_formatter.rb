@@ -24,7 +24,7 @@ class HashFormatter
 
   def each
     return to_enum unless block_given?
-    @hash.map {|*a| yield a.flatten(1).map(&method(:to_ruby))}
+    @hash.map {|*a| yield a.flat_map(&method(:to_ruby))}
   end
 
   private
