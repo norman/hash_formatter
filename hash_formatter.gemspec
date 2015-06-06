@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "hash_formatter"
-  s.version     = "0.0.1"
+  s.version     = "0.0.2"
   s.summary     = "Formats Ruby Hashes"
   s.description = "Hash Formatter is a library that formats Ruby hashes for code editors."
   s.authors     = ["Norman Clarke"]
